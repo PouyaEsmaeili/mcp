@@ -334,3 +334,4 @@ Exposing an MCP server for your Gradio app is simple and seamless—one of my fa
 1. [MCP Python SDK/ Github](https://github.com/modelcontextprotocol/python-sdk)
 2. [Model Context Protocol/ Github](https://github.com/modelcontextprotocol)
 2. [Model Context Protocol Documentation](https://modelcontextprotocol.io/introduction)
+3. [MCP Course on Hugging Face](https://huggingface.co/learn/mcp-course/unit0/introduction)
