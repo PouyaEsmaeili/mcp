@@ -309,6 +309,23 @@ Client can:
 - Get a prompt: [GetPromptRequest](https://github.com/modelcontextprotocol/python-sdk/blob/babb477dffa33f46cdc886bc885eb1d521151430/src/mcp/types.py#L617C7-L617C23)/ [GetPromptResult](https://github.com/modelcontextprotocol/python-sdk/blob/babb477dffa33f46cdc886bc885eb1d521151430/src/mcp/types.py#L679)
 - Read a resource: [ReadResourceRequest](https://github.com/modelcontextprotocol/python-sdk/blob/babb477dffa33f46cdc886bc885eb1d521151430/src/mcp/types.py#L446C7-L446C26) /[ReadResourceResult](https://github.com/modelcontextprotocol/python-sdk/blob/babb477dffa33f46cdc886bc885eb1d521151430/src/mcp/types.py#L482C7-L482C25)
 
+
+---
+
+## Gradio + MCP
+
+Exposing an MCP server for your Gradio app is simple and seamless—one of my favorite MCP integrations.
+
+1. Install Gradio with the MCP extra:  
+   ```bash
+   pip install "gradio[mcp]"
+   ```
+2. Launch your app with ```mcp_server=True```.
+3. The MCP server address will be displayed in the console. You can access MCP documentation at the bottom of your app page.
+
+- For full details, check out the [Gradio MCP server guide](https://www.gradio.app/guides/building-mcp-server-with-gradio).
+- Try my demo [Space on Hugging Face](https://huggingface.co/spaces/Pouyae/mcp-gradio).
+
 --- 
 
 ## References
